@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561EB1F723A144F6005FA24A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561EB1F623A144F6005FA24A /* AppDelegate.swift */; };
+		561EB1F923A144F6005FA24A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561EB1F823A144F6005FA24A /* SceneDelegate.swift */; };
+		561EB1FB23A144F6005FA24A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561EB1FA23A144F6005FA24A /* ViewController.swift */; };
+		561EB1FE23A144F6005FA24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561EB1FC23A144F6005FA24A /* Main.storyboard */; };
+		561EB20023A144F7005FA24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 561EB1FF23A144F7005FA24A /* Assets.xcassets */; };
+		561EB20323A144F7005FA24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561EB20123A144F7005FA24A /* LaunchScreen.storyboard */; };
+		561EB20E23A144F7005FA24A /* BackgroundAudioCheckTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561EB20D23A144F7005FA24A /* BackgroundAudioCheckTests.swift */; };
+		561EB21923A144F7005FA24A /* BackgroundAudioCheckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561EB21823A144F7005FA24A /* BackgroundAudioCheckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561EB20A23A144F7005FA24A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561EB1EB23A144F6005FA24A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561EB1F223A144F6005FA24A;
+			remoteInfo = BackgroundAudioCheck;
+		};
+		561EB21523A144F7005FA24A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561EB1EB23A144F6005FA24A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561EB1F223A144F6005FA24A;
+			remoteInfo = BackgroundAudioCheck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		561EB1F323A144F6005FA24A /* BackgroundAudioCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundAudioCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		561EB1F623A144F6005FA24A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		561EB1F823A144F6005FA24A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		561EB1FA23A144F6005FA24A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		561EB1FD23A144F6005FA24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		561EB1FF23A144F7005FA24A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		561EB20223A144F7005FA24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		561EB20423A144F7005FA24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561EB20923A144F7005FA24A /* BackgroundAudioCheckTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundAudioCheckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561EB20D23A144F7005FA24A /* BackgroundAudioCheckTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioCheckTests.swift; sourceTree = "<group>"; };
+		561EB20F23A144F7005FA24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		561EB21423A144F7005FA24A /* BackgroundAudioCheckUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundAudioCheckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		561EB21823A144F7005FA24A /* BackgroundAudioCheckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAudioCheckUITests.swift; sourceTree = "<group>"; };
+		561EB21A23A144F7005FA24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561EB1F023A144F6005FA24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561EB20623A144F7005FA24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561EB21123A144F7005FA24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561EB1EA23A144F6005FA24A = {
+			isa = PBXGroup;
+			children = (
+				561EB1F523A144F6005FA24A /* BackgroundAudioCheck */,
+				561EB20C23A144F7005FA24A /* BackgroundAudioCheckTests */,
+				561EB21723A144F7005FA24A /* BackgroundAudioCheckUITests */,
+				561EB1F423A144F6005FA24A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561EB1F423A144F6005FA24A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561EB1F323A144F6005FA24A /* BackgroundAudioCheck.app */,
+				561EB20923A144F7005FA24A /* BackgroundAudioCheckTests.xctest */,
+				561EB21423A144F7005FA24A /* BackgroundAudioCheckUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561EB1F523A144F6005FA24A /* BackgroundAudioCheck */ = {
+			isa = PBXGroup;
+			children = (
+				561EB1F623A144F6005FA24A /* AppDelegate.swift */,
+				561EB1F823A144F6005FA24A /* SceneDelegate.swift */,
+				561EB1FA23A144F6005FA24A /* ViewController.swift */,
+				561EB1FC23A144F6005FA24A /* Main.storyboard */,
+				561EB1FF23A144F7005FA24A /* Assets.xcassets */,
+				561EB20123A144F7005FA24A /* LaunchScreen.storyboard */,
+				561EB20423A144F7005FA24A /* Info.plist */,
+			);
+			path = BackgroundAudioCheck;
+			sourceTree = "<group>";
+		};
+		561EB20C23A144F7005FA24A /* BackgroundAudioCheckTests */ = {
+			isa = PBXGroup;
+			children = (
+				561EB20D23A144F7005FA24A /* BackgroundAudioCheckTests.swift */,
+				561EB20F23A144F7005FA24A /* Info.plist */,
+			);
+			path = BackgroundAudioCheckTests;
+			sourceTree = "<group>";
+		};
+		561EB21723A144F7005FA24A /* BackgroundAudioCheckUITests */ = {
+			isa = PBXGroup;
+			children = (
+				561EB21823A144F7005FA24A /* BackgroundAudioCheckUITests.swift */,
+				561EB21A23A144F7005FA24A /* Info.plist */,
+			);
+			path = BackgroundAudioCheckUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561EB1F223A144F6005FA24A /* BackgroundAudioCheck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561EB21D23A144F7005FA24A /* Build configuration list for PBXNativeTarget "BackgroundAudioCheck" */;
+			buildPhases = (
+				561EB1EF23A144F6005FA24A /* Sources */,
+				561EB1F023A144F6005FA24A /* Frameworks */,
+				561EB1F123A144F6005FA24A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundAudioCheck;
+			productName = BackgroundAudioCheck;
+			productReference = 561EB1F323A144F6005FA24A /* BackgroundAudioCheck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		561EB20823A144F7005FA24A /* BackgroundAudioCheckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561EB22023A144F7005FA24A /* Build configuration list for PBXNativeTarget "BackgroundAudioCheckTests" */;
+			buildPhases = (
+				561EB20523A144F7005FA24A /* Sources */,
+				561EB20623A144F7005FA24A /* Frameworks */,
+				561EB20723A144F7005FA24A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561EB20B23A144F7005FA24A /* PBXTargetDependency */,
+			);
+			name = BackgroundAudioCheckTests;
+			productName = BackgroundAudioCheckTests;
+			productReference = 561EB20923A144F7005FA24A /* BackgroundAudioCheckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		561EB21323A144F7005FA24A /* BackgroundAudioCheckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561EB22323A144F7005FA24A /* Build configuration list for PBXNativeTarget "BackgroundAudioCheckUITests" */;
+			buildPhases = (
+				561EB21023A144F7005FA24A /* Sources */,
+				561EB21123A144F7005FA24A /* Frameworks */,
+				561EB21223A144F7005FA24A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561EB21623A144F7005FA24A /* PBXTargetDependency */,
+			);
+			name = BackgroundAudioCheckUITests;
+			productName = BackgroundAudioCheckUITests;
+			productReference = 561EB21423A144F7005FA24A /* BackgroundAudioCheckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561EB1EB23A144F6005FA24A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Matt Mould";
+				TargetAttributes = {
+					561EB1F223A144F6005FA24A = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					561EB20823A144F7005FA24A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 561EB1F223A144F6005FA24A;
+					};
+					561EB21323A144F7005FA24A = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 561EB1F223A144F6005FA24A;
+					};
+				};
+			};
+			buildConfigurationList = 561EB1EE23A144F6005FA24A /* Build configuration list for PBXProject "BackgroundAudioCheck" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 561EB1EA23A144F6005FA24A;
+			productRefGroup = 561EB1F423A144F6005FA24A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561EB1F223A144F6005FA24A /* BackgroundAudioCheck */,
+				561EB20823A144F7005FA24A /* BackgroundAudioCheckTests */,
+				561EB21323A144F7005FA24A /* BackgroundAudioCheckUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561EB1F123A144F6005FA24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561EB20323A144F7005FA24A /* LaunchScreen.storyboard in Resources */,
+				561EB20023A144F7005FA24A /* Assets.xcassets in Resources */,
+				561EB1FE23A144F6005FA24A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561EB20723A144F7005FA24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561EB21223A144F7005FA24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561EB1EF23A144F6005FA24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561EB1FB23A144F6005FA24A /* ViewController.swift in Sources */,
+				561EB1F723A144F6005FA24A /* AppDelegate.swift in Sources */,
+				561EB1F923A144F6005FA24A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561EB20523A144F7005FA24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561EB20E23A144F7005FA24A /* BackgroundAudioCheckTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561EB21023A144F7005FA24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561EB21923A144F7005FA24A /* BackgroundAudioCheckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561EB20B23A144F7005FA24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561EB1F223A144F6005FA24A /* BackgroundAudioCheck */;
+			targetProxy = 561EB20A23A144F7005FA24A /* PBXContainerItemProxy */;
+		};
+		561EB21623A144F7005FA24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561EB1F223A144F6005FA24A /* BackgroundAudioCheck */;
+			targetProxy = 561EB21523A144F7005FA24A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		561EB1FC23A144F6005FA24A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561EB1FD23A144F6005FA24A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		561EB20123A144F7005FA24A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561EB20223A144F7005FA24A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561EB21B23A144F7005FA24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		561EB21C23A144F7005FA24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561EB21E23A144F7005FA24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VP8QL4FNX;
+				INFOPLIST_FILE = BackgroundAudioCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.BackgroundAudioCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		561EB21F23A144F7005FA24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VP8QL4FNX;
+				INFOPLIST_FILE = BackgroundAudioCheck/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.BackgroundAudioCheck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		561EB22123A144F7005FA24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VP8QL4FNX;
+				INFOPLIST_FILE = BackgroundAudioCheckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.BackgroundAudioCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundAudioCheck.app/BackgroundAudioCheck";
+			};
+			name = Debug;
+		};
+		561EB22223A144F7005FA24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VP8QL4FNX;
+				INFOPLIST_FILE = BackgroundAudioCheckTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.BackgroundAudioCheckTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundAudioCheck.app/BackgroundAudioCheck";
+			};
+			name = Release;
+		};
+		561EB22423A144F7005FA24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VP8QL4FNX;
+				INFOPLIST_FILE = BackgroundAudioCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.BackgroundAudioCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BackgroundAudioCheck;
+			};
+			name = Debug;
+		};
+		561EB22523A144F7005FA24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6VP8QL4FNX;
+				INFOPLIST_FILE = BackgroundAudioCheckUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.bbc.BackgroundAudioCheckUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BackgroundAudioCheck;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561EB1EE23A144F6005FA24A /* Build configuration list for PBXProject "BackgroundAudioCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561EB21B23A144F7005FA24A /* Debug */,
+				561EB21C23A144F7005FA24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561EB21D23A144F7005FA24A /* Build configuration list for PBXNativeTarget "BackgroundAudioCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561EB21E23A144F7005FA24A /* Debug */,
+				561EB21F23A144F7005FA24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561EB22023A144F7005FA24A /* Build configuration list for PBXNativeTarget "BackgroundAudioCheckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561EB22123A144F7005FA24A /* Debug */,
+				561EB22223A144F7005FA24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561EB22323A144F7005FA24A /* Build configuration list for PBXNativeTarget "BackgroundAudioCheckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561EB22423A144F7005FA24A /* Debug */,
+				561EB22523A144F7005FA24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561EB1EB23A144F6005FA24A /* Project object */;
+}
