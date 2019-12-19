@@ -9,6 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func play(_ sender: Any) {
+        (UIApplication.shared.delegate as! AppDelegate).player.play()
+    }
+
+    @IBAction func pause(_ sender: Any) {
+        (UIApplication.shared.delegate as! AppDelegate).player.pause()
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
